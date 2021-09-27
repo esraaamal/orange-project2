@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            
+            border: 1px solid black;
+            margin: 6px;
+
+        }
+       .red:nth-child(even){
+        padding: 30px;
+
+background: green;
+
+
+       }
+       .red:nth-child(odd){
+        padding: 30px;
+
+background: yellow;
+
+}
+.container{
+    display: flex;
+    overflow: visible;
+}
+    </style>
+</head>
+<body>
+    <h1>Zig-Zag Boxes</h1>
+    <hr>
+    <div class="container">
+        <div class="red"></div >
+        <div class="red"></div >
+        <div class="red"></div >
+        <div class="red"></div >
+        <div class="red"></div >
+        <div class="red"></div >
+        <div class="red"></div >
+        <div class="red"></div>
+        <div class="red"></div >
+        <div class="red"></div >
+    </div >
+</body>
+</html>
